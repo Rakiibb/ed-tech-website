@@ -11,7 +11,7 @@
     margin-right: 15%;
 }
 
-@media screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     .brand {
         display: none;
     }
