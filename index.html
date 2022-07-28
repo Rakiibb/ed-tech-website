@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Pro Education</title>
     <!-- font awesome link  -->
     <script src="https://kit.fontawesome.com/67e22b6a62.js" crossorigin="anonymous"></script>
     <!-- bootstrap link  -->
@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="container">
+<body class="container container-fluid">
     <header>
         <section>
             <!-- nav bar start -->
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar fixed-top navbar-expand-lg bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Pro Edu</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,22 +29,22 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link active" href="#course">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link active" href="#popular-question">Questions</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Success</a>
+                                <a class="nav-link active" href="#success">Success</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link active" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Register</a>
+                                <a class="nav-link active" href="#register">Register</a>
                             </li>
                     </div>
 
@@ -55,7 +55,7 @@
         </section>
         <section>
             <!-- header option Start -->
-            <div>
+            <div id="home" class="mt-5">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4000"
@@ -71,11 +71,11 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h1>Get Started Digital</h1>
                                 <h1>Learning</h1>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.
+                                <p>Follow our website for some important coruse. we provide you
+                                    HTML,CSS,Javascript,Phythone etc proggraming language.And we provide you computer
+                                    skill, and other things.If you need this you can join our course. It's for you.
                                 </p>
-                                <button type="button" class="btn btn-color px-3 py-2 fw-bold text-white">Get
-                                    Started</button>
+                                <button type="button" class="btn btn-primary">Get Started</button>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
@@ -83,8 +83,9 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h1>Get Started Digital</h1>
                                 <h1>Learning</h1>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.
+                                <p>Follow our website for some important coruse. we provide you
+                                    HTML,CSS,Javascript,Phythone etc proggraming language.And we provide you computer
+                                    skill, and other things.If you need this you can join our course. It's for you.
                                 </p>
                                 <button type="button" class="btn btn-primary">Get Started</button>
                             </div>
@@ -94,8 +95,9 @@
                             <div class="carousel-caption d-none d-md-block">
                                 <h1>Get Started Digital</h1>
                                 <h1>Learning</h1>
-                                <p>It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.
+                                <p>Follow our website for some important coruse. we provide you
+                                    HTML,CSS,Javascript,Phythone etc proggraming language.And we provide you computer
+                                    skill, and other things.If you need this you can join our course. It's for you.
                                 </p>
                                 <button type="button" class="btn btn-primary">Get Started</button>
                             </div>
@@ -117,17 +119,15 @@
         </section>
     </header>
     <main>
-        <section>
+        <section id="course">
             <!-- "Discover Our Popular Courses" Start  -->
             <div class="d-flex justify-content-center mt-5">
                 <div class="d-flex flex-column">
                     <h1 class="d-flex justify-content-center text-fluid">Discover Our Popular</h1>
                     <h1 class="d-flex justify-content-center text-fluid">Courses</h1>
-                    <p class="d-flex justify-content-center text-fluid">It is a long established fact that a reader will
-                        be
-                        distracted by the readable content of a page
-                        when
-                        looking at its layout.</p>
+                    <p class="d-flex justify-content-center text-fluid">Here you can know that which course are more
+                        popular.And that's course are about very interesting. On that genaration you must need that
+                        course.</p>
                 </div>
             </div>
             <div>
@@ -143,11 +143,8 @@
                                 <div class="col-12 col-sm-12 col-md-8  d-flex align-items-center px-2">
                                     <div class="card-body">
                                         <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                                        <p class="card-text text-muted">Some quick example text to build on the card
-                                            title
-                                            and
-                                            make up the
-                                            bulk of the card.</p>
+                                        <p class="card-text text-muted">Here We discuss about UIUX design. UI means User
+                                            Interface and UX means User Experience. </p>
                                         <h6 class="text-info">Price : 20$</h6>
                                     </div>
                                 </div>
@@ -164,12 +161,11 @@
                                 <div class="col-md-8 d-flex align-items-center px-2">
                                     <div class="card-body">
                                         <h5 class="card-title">Javascript Basic to advanced</h5>
-                                        <p class="card-text text-muted">Some quick example text to build on the card
-                                            title
-                                            and
-                                            make up the
-                                            bulk of the card.</p>
-                                        <h6 class="text-info">Price : 20$</h6>
+                                        <p class="card-text text-muted">Here we discuss about a proggraming
+                                            language.
+                                            using Javascript you can do many intaresting project.
+                                        </p>
+                                        <h6 class="text-info">Price : 22$</h6>
                                     </div>
                                 </div>
                             </div>
@@ -185,12 +181,9 @@
                                 <div class="col-md-8 d-flex align-items-center px-2">
                                     <div class="card-body">
                                         <h5 class="card-title">Fullstack Web Development</h5>
-                                        <p class="card-text text-muted">Some quick example text to build on the card
-                                            title
-                                            and
-                                            make up the
-                                            bulk of the card.</p>
-                                        <h6 class="text-info">Price : 20$</h6>
+                                        <p class="card-text text-muted">Here we discuss about html,css,java and some
+                                            important proggraming language.</p>
+                                        <h6 class="text-info">Price : 30$</h6>
                                     </div>
                                 </div>
                             </div>
@@ -206,12 +199,10 @@
                                 <div class="col-md-8 d-flex align-items-center px-2">
                                     <div class="card-body">
                                         <h5 class="card-title">Digital Marketing</h5>
-                                        <p class="card-text text-muted">Some quick example text to build on the card
-                                            title
-                                            and
-                                            make up the
-                                            bulk of the card.</p>
-                                        <h6 class="text-info">Price : 20$</h6>
+                                        <p class="card-text text-muted">Here we proveding you a digital platfrom and
+                                            some course about digital marketing.
+                                        </p>
+                                        <h6 class="text-info">Price : 15$</h6>
                                     </div>
                                 </div>
                             </div>
@@ -227,11 +218,8 @@
                                 <div class="col-md-8 d-flex align-items-center px-2">
                                     <div class="card-body">
                                         <h5 class="card-title">Photography Basic Rules</h5>
-                                        <p class="card-text text-muted">Some quick example text to build on the card
-                                            title
-                                            and
-                                            make up the
-                                            bulk of the card.</p>
+                                        <p class="card-text text-muted">Here we discuss about Photography. This course
+                                            are more popular than others course.</p>
                                         <h6 class="text-info">Price : 20$</h6>
                                     </div>
                                 </div>
@@ -248,12 +236,9 @@
                                 <div class="col-md-8 d-flex align-items-center px-2">
                                     <div class="card-body">
                                         <h5 class="card-title">Motion Graphics</h5>
-                                        <p class="card-text text-muted">Some quick example text to build on the card
-                                            title
-                                            and
-                                            make up the
-                                            bulk of the card.</p>
-                                        <h6 class="text-info">Price : 20$</h6>
+                                        <p class="card-text text-muted">Here we discuss about motion Graphic. you can
+                                            know here that how to make a animation vedio.</p>
+                                        <h6 class="text-info">Price : 50$</h6>
                                     </div>
                                 </div>
                             </div>
@@ -266,7 +251,7 @@
             </div>
             <!-- "Discover Our Popular Courses" End -->
         </section>
-        <section>
+        <section id="about">
             <!-- Explore The elearning Institute Start  -->
             <div class="col-md-12 g-5 bg-earning-nstitute rounded">
                 <div class=" rounded d-flex align-items-center">
@@ -278,14 +263,14 @@
                             <div class="me-3">
                                 <h1>Explore The elearning</h1>
                                 <h1>Institute</h1>
-                                <p class="text-muted mt-4">There are many variations of passages of Lorem Ipsum
-                                    available, but the majority have suffered alteration in some form, by injected
-                                    humour, or randomised words which don't look even slightly believable. If you are
-                                    going to use a passage of Lorem Ipsum, you need to be sure.
+                                <p class="text-muted mt-4">Hi. I am a course instractor of this course. I think you are
+                                    exploring our website with fun. In our website you can find all important course for
+                                    our genaration.If you need any kind of course you can scearch that and you need
+                                    anything more you can contac with us.
                                     <br>
                                     <br>
-                                    Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators
-                                    on the Internet tend to repeat predefined.
+                                    You can seen here our course popularity. we have many Successful student. Right now
+                                    they are doing job in facebook, instagram, google, amazon etc.
                                 </p>
                                 <div class="d-flex justify-content-between my-4">
                                     <div>
@@ -312,15 +297,17 @@
             </div>
             <!-- Explore The elearning Institute End  -->
         </section>
-        <section>
+        <section id="register">
             <!-- Ready to join option Start  -->
             <div class="card redy-to-join-bg-color p-5 my-5">
                 <div class="row d-flex justify-content-between align-items-center">
                     <div class="col-md-12">
                         <h1 class="text-white">Ready to join?</h1>
-                        <p class="text-white">It is a long established fact that a reader will be distracted by the
-                            <br> readable content of a
-                            page when looking at its layout.
+                        <p class="text-white">Are you ready for join our course? If you are intarested to join our
+                            course you can apply now.
+                            <br>
+                            you can see here the "Register Now" button. click here and join our
+                            course.
                         </p>
                     </div>
                     <div class="d-sm-flex justify-content-sm-center d-lg-flex justify-content-lg-end">
@@ -372,7 +359,7 @@
             </div>
             <!-- Ready to join option End -->
         </section>
-        <section>
+        <section id="success">
             <!-- Successful Students part Start  -->
             <div class="row d-flex flex-wrap justify-content-between g-3 mb-5">
                 <div class="card col-sm-6 col-lg-3">
@@ -414,12 +401,8 @@
             <div class="mb-5">
                 <div class="d-flex flex-column align-items-center">
                     <h1>Some Students Feedback</h1>
-                    <p class="text-muted mt-2">It is a long established
-                        fact that a reader
-                        will be distracted by
-                        the
-                        readable content of a page
-                        when looking at its layout.</p>
+                    <p class="text-muted mt-2">Let's know our Successful student Feedback. they all are now doing work
+                        with google, amazon, facebook etc.</p>
                 </div>
                 <div>
                     <div class="row gy-3">
@@ -428,7 +411,7 @@
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between mb-4">
                                         <div>
-                                            <i class="fa-solid fa-quote-right"></i>
+                                            <img src="images/comma.png" alt="">
                                         </div>
                                         <div>
                                             <i class="fa-solid fa-star"></i>
@@ -438,13 +421,11 @@
                                             <i class="fa-regular fa-star"></i>
                                         </div>
                                     </div>
-                                    <p class="card-text">There are many variations of passages of Lorem Ipsum
-                                        available,
-                                        but the majority have suffered alteration in some form, by injected humour,
-                                        or
-                                        randomised words which don't look even slightly believable. If you are going
-                                        to
-                                        use a passage of Lorem.
+                                    <p class="card-text">Hi, My name is Awlad Hossain. I am a UIUX designer of google.
+                                        In 2022 i didn't know anything what is ui and what is ux. bt now i am a designer
+                                        off a multinational company. that's amazing. For that i will give the full
+                                        credit to the pro....<button class="text-info btn btn-link p-0">see
+                                            more</button>
                                     </p>
                                     <div class="d-flex justify-content-start align-items-center">
                                         <div><img class="img-fluid" src="images/student/student-5.png" alt=""></div>
@@ -461,7 +442,7 @@
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between mb-4">
                                         <div>
-                                            <i class="fa-solid fa-quote-right"></i>
+                                            <img src="images/comma.png" alt="">
                                         </div>
                                         <div>
                                             <i class="fa-solid fa-star"></i>
@@ -471,13 +452,12 @@
                                             <i class="fa-regular fa-star"></i>
                                         </div>
                                     </div>
-                                    <p class="card-text">There are many variations of passages of Lorem Ipsum
-                                        available,
-                                        but the majority have suffered alteration in some form, by injected humour,
-                                        or
-                                        randomised words which don't look even slightly believable. If you are going
-                                        to
-                                        use a passage of Lorem.</p>
+                                    <p class="card-text">Hello, I am Shanta Akter. the seniour grapic designer of
+                                        Amazon.I work here from last three years. I realy thanks tha Pro Edu team. they
+                                        are awesome. There class quality is unbelievable I never imagine that i also
+                                        would be grapic designer.But no....<button
+                                            class="text-info btn btn-link p-0">see
+                                            more</button></p>
                                     <div class="d-flex justify-content-start align-items-center">
                                         <div><img src="images/student/student-6.png" alt=""></div>
                                         <div class="ms-3">
@@ -495,12 +475,13 @@
             </div>
             <!-- Students Feedback option End  -->
         </section>
-        <section>
+        <section id="popular-question">
             <!-- Asked Questions Start  -->
             <div class="d-flex flex-column align-items-center">
                 <h1>Frequently Asked Questions</h1>
-                <p class="text-muted mt-2 mb-5">It is a long established fact that a reader will be distracted by the
-                    readable content of a page when looking at its layout.</p>
+                <p class="text-muted mt-2 mb-5">People ask us various questions every day. Some of the popular questions
+                    are given here.
+                </p>
             </div>
             <div class="minimised mb-5">
                 <div class="accordion" id="accordionExample">
@@ -508,18 +489,18 @@
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Accordion Item #1
+                                what is the difference between tailwind and bootstrap?
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                <strong>Tailwind</strong> offers predesigned
+                                widgets to build a site from scratch with fast UI development.
+                                <strong>Bootstrap</strong> comes with a
+                                set of pre-styled responsive, mobile-first components that possess a definite UI kit.
+                                Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and
+                                uniqueness
                             </div>
                         </div>
                     </div>
@@ -527,18 +508,17 @@
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Accordion Item #2
+                                what is the difference between flexbox and grid?
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and hiding
-                                via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                default variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                <strong>Grid is made for two-dimensional layout while Flexbox is for one.</strong> This
+                                means Flexbox can
+                                work on either row or columns at a time, but Grids can work on both. Flexbox, gives you
+                                more flexibility while working on either element (row or column). HTML markup and CSS
+                                will be easy to manage in this type of scenario
                             </div>
                         </div>
                     </div>
@@ -546,18 +526,35 @@
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Accordion Item #3
+                                what is css box model?
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                the collapse plugin adds the appropriate classes that we use to style each element.
-                                These classes control the overall appearance, as well as the showing and hiding via CSS
-                                transitions. You can modify any of this with custom CSS or overriding our default
-                                variables. It's also worth noting that just about any HTML can go within the
-                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                In CSS, the term "box model" is used when talking about design and layout. The CSS box
+                                model is essentially <strong>a box that wraps around every HTML element.</strong> It
+                                consists of:
+                                margins, borders, padding, and the actual content.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                what is semantic tag?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Semantic HTML elements are <strong>those that clearly describe their meaning in a human-
+                                    and
+                                    machine-readable way.</strong> Elements such as <header> , <footer> and <article>
+                                            are all
+                                            considered semantic because they accurately describe the purpose of the
+                                            element and the type of content that is inside them
                             </div>
                         </div>
                     </div>
@@ -567,7 +564,7 @@
         </section>
         <section>
             <!-- company name start  -->
-            <div>
+            <div class="brand">
                 <div class="d-flex justify-content-center my-5 text-center">
                     <h1>Trusted by over 800+ companies</h1>
                 </div>
